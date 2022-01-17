@@ -18,7 +18,7 @@ ground.addImage("ground",groundImage);
 ground.scale = 1.2
 ground.y = height / 2
 ground.velocityY = 4
-background(220)
+
 
 //create sprites here
 runner = createSprite(200,300)
@@ -36,6 +36,7 @@ invisibleWall2.visible = false
 }
 
 function draw() {
+ background(220)
   if(ground.y > 400){
    ground.y = height / 2 
    
